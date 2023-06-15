@@ -1,0 +1,5 @@
+name: BeeGarden
+version: '${project.version}'
+main: me.arttostog.beegarden.BeeGarden
+api-version: 1.15
+authors: [arttostog]
