@@ -2,7 +2,7 @@
 
 # BeeGarden - Simple Minecraft Plugin.
 
-**About**
+### About
 
 </div>
 
@@ -10,7 +10,7 @@ A small plugin that adds gui for hives and bee nests 🐝.
 
 <div align="center">
 
-**Download**
+### Download
 
 </div>
 
