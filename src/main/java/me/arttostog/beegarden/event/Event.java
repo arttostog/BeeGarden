@@ -10,13 +10,15 @@ import org.bukkit.event.block.Action;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 
+import java.net.MalformedURLException;
+
 public class Event implements Listener {
 	@EventHandler
-	public void OnPlayerClick(PlayerInteractEvent event) {
+	public void OnPlayerClick(PlayerInteractEvent event) throws MalformedURLException {
 		if (event.getAction() == Action.RIGHT_CLICK_BLOCK && event.getItem() == null && event.getClickedBlock() != null) {
 			Block block = event.getClickedBlock();
 			if (block.getType() == Material.BEEHIVE || block.getType() == Material.BEE_NEST) {
-				Gui.OpenGui(event.getPlayer(), block);
+				new Gui(block).OpenGui(event.getPlayer());
 			}
 		}
 	}
