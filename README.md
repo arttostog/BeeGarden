@@ -8,7 +8,7 @@
 
 A small plugin that adds gui for hives and bee nests 🐝.
 
-Work on versions 1.19+.
+Works on version 1.19 and later.
 
 <div align="center">
 
